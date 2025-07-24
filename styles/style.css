@@ -1,0 +1,263 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.display-none{
+    display: none;
+}
+/* google font */
+
+
+/* all-wiath */
+.all-wiath{
+    max-width: 88%;
+    margin: 0 auto;
+   
+}
+/* navber styles */
+.navcontainer{
+    /* border: 1px solid #ddd; */
+    /* max-width:88%; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    margin-bottom: 50px;
+    
+
+}
+
+#bazar{
+   margin-top: 22px;
+}
+
+
+
+.navber{
+    display: flex;
+  gap: 30px;
+
+}
+.navber li{
+    list-style: none;
+
+    
+}
+.navber li a{
+    text-decoration: none;
+    color: #797777;
+
+
+}
+.home-st{
+    color: #000;
+    font-weight: 600;
+
+}
+.cart-st{
+    color: #464545;
+}
+
+#display{
+    display: none;
+}
+#display li {
+    list-style: none;
+
+}
+#display a{
+ 
+    text-decoration: none;
+    font-size: 1.2rem;
+ 
+
+}
+.cart-st{
+       color: #000000
+       
+}
+
+/* header styles section */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 88%; */
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.af{
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.sp-dp{
+    color: #E95A08;
+}
+
+.text-discription{
+   
+    color: #444343;
+}
+
+
+
+#img-con{
+   
+    width: 100%;
+}
+
+/* main sections start */
+.text-div{
+    text-align: center;
+    width: 100%;
+}
+
+.our{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.gd{
+    color: #E95A08;
+}
+
+.some-diccription{
+    color: #424141;
+    text-align: center;
+    margin-top: -40px;
+    
+}
+/* card styles sections */
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.card{
+    border: 1px solid;
+    /* width: 160px; */
+    width: 95%;
+    /* margin-right: 60px; */
+    margin-top: 20px;
+   
+}
+.card img{
+    width: 100%;
+}
+.card h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.card p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+
+
+.btn-primary{
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: #ffff;
+    background-color: #E95A08;
+}
+/* second section some etxt & photo */
+.main-container{
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+    /* position: absolute; */
+}
+.tfris-ph img{
+    width: 100%;
+    /* position: relative; */
+}
+
+#logo-section {
+width: 200px;
+position: relative;
+left: 270px;
+/* border: 1px solid; */
+top: 170px;
+
+}
+
+
+
+.some-second-text h1{
+font-family: 700;
+font-size: 2.4rem;
+
+}
+
+.some-second-text li{
+    color: #3a3939;
+    margin-top: 30px;
+}
+
+
+/* responsive in mobile devices  */
+@media screen and (max-width:576px) {
+.navber li{
+    display: none;
+   
+
+}
+
+
+#display{
+    display: flex;
+    
+    align-items: center;
+}
+    /* header section */
+   
+.header-container{
+    flex-direction: column-reverse;
+}
+
+.img-con{
+overflow: hidden;    
+}
+/* card section */
+.main-content{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+/* second section some etxt & photo */
+.main-container{
+    flex-direction: column;
+}
+
+/* halka logo */
+#logo-section {
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
