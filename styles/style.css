@@ -210,48 +210,102 @@ font-size: 2.4rem;
     color: #3a3939;
     margin-top: 30px;
 }
+
+
 /*  three section speacefique */
+.shan-container{
+    margin-top: 80px;
+   border: 5px solid;
+   height: 500px;
+   display: flex;
+   justify-content: space-between;
+   /* gap: 50px; */
 
-
-
-/* .abba-container{
-    border: 2px solid ;
-    /* height: 430px; */
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr) ;
+}
+.hello-container{
+    width: 100%;
+    height: 90%;
+    margin-left: 50px;
 }
 .frist-content{
-    border: 2px solid;
-   /* width: 150px; */
-   /* height: 100px; */
-/* }
-.second-containt{
-    border: 2px solid;
-    width: 100%;
-}
-.frist-content div {
-    border: 2px solid;
-}
-#frist{
+    /* border: 2px solid red; */
     background-image: url(..//B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    /* position: relative; */
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+    /* background-image: url(..//B12A02-Responsive-Flowers/assets/deal-ana.png); */
+    background-repeat: none;
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%; */ */
-/* }
-#second{
+    border-radius: 20px;
+width: 50%;
+height: 50%;
+text-align: center;
+color: #ffff;
+    
+}
+ #fh1, #pt1 {
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+#pt1{
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
+.third-content{
     background-image: url(..//B12A02-Responsive-Flowers/assets/deal-ana.png);
-     background-size: cover;
     background-repeat: no-repeat;
-        width: 100%;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+#fh2,#pt2{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+#pt2 {
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+.second-content{
+    /* border: 2px solid green; */
+    background-image: url(..//B12A02-Responsive-Flowers/assets/deal-zabo.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     /* height: 90%; */
+     /* justify-items: center; */
+     border-radius: 20px;
+     margin-right: 50px;
+     text-align: center;
+}
+#fh3,#pt3{
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    /* left: 50%; */
+    /* transform: translate(-50% ,-50%); */
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#pt3 {
+    text-decoration: underline;
 
 }
-#third{
-    background-image: url(..//B12A02-Responsive-Flowers/assets/deal-zabo.png);
-     background-size: cover;
-    background-repeat: no-repeat;
-        width: 100%;
 
-} */ 
+
+
+
 
 
 
